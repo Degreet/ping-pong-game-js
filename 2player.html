@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Game</title>
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <canvas id="canvas" width="800" height="500"></canvas>
+    <div>
+        <span id="firstPlayerScore">0</span>
+        <a href="" style="margin-top:5px" onclick="location.reload()">New Game</a>
+        <span id="secondPlayerScore">0</span>
+    </div>
+
+    <div class="my-modal">
+        <h2>How to play</h2>
+        <p>
+            Use the "W" and "S" KEYS to control the first player.<br>
+            Use the Arrow Up and Arrow Down KEYS to control the second player.
+        </p>
+        <button id="startGame">Play!</button>
+    </div>
+
+    <script src="js/modal.js"></script>
+    <script src="js/2player.js"></script>
+</body>
+</html>

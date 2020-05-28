@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    color: #ffffff;
+    background: #131414;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #efeff0;
+    transition: .3s;
+}
+
+a:hover {
+    color: #bbbbbb;
+}
+
+canvas {
+    background: #111111;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    transition: .5s;
+}
+
+canvas:hover {
+    box-shadow: 0 0 40px black;
+}
+
+div {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+}
+
+#firstPlayerScore, #secondPlayerScore {
+    font-size: 40px;
+}
+
+.modal {
+    color: #fff;
+    background: #111111;
+    display: block;
+}
+
+.my-modal h2 {
+    margin-bottom: 20px;
+}
+
+.my-modal p {
+    opacity: 0.6;
+}
+
+.flex button {
+    width: 200px;
+    margin-top: 0;
+}
+
+button {
+    margin-top: 20px;
+    padding: 5px 15px;
+    border: 1px solid #d8d8d8;
+    background: #111;
+    color: #ffffff;
+    transition: .3s;
+}
+
+button:hover {
+    background: #222;
+}
+
+.my-modal {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
